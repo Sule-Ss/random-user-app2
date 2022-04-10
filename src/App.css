@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, #FEC861 50%, #F1F4F7 10%, #F1F4F7 60%);
+  background-color: #F1F4F7;
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  background-color: #F1F4F7;
+  height: 100%;
+  background: linear-gradient(to bottom,
+  #F1F4F7 25%, gray 20% 25.2%, white 5% 80%);
+
+  box-shadow: 5px 10px 18px gray;
+  border-radius: 1rem;
+}
+
+main>* {
+  margin-top: 1rem;
+}
+
+figure {
+  background-color: #d9e3ed;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #888888;
+  margin-top: 3rem;
+}
+
+figure img {
+  border-radius: 50%;
+  padding:3px 5px;
+  background-color: #d9e3ed;
+}
+
+.hoverDeployResult {
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: white;
+}
+.hoverDeployResult p {
+  margin-bottom: 10px;
+}
+
+.hoverDeployImg img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+  margin: 0 2rem;
+  padding: 5px;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.hoverDeployImg img:hover{
+ padding: 2px;
+ opacity: 1;
+}
+
+/* --- BUTTONS ---- */
+
+.buttons{
+  display: flex;
+}
+
+button {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+button {
+   margin: 1rem 2rem;
+   padding: 0.7rem;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   border-color: white;
+   display: block;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /* TABLE */
+
+ table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: rgb(245, 216, 168)}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F09819;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    padding: 0px;
+    background: none;
+  }
+
+  main{
+    background-color: white;
+    height: 100vh;
+  }
+
+  table td, table th{
+    padding:1rem 0px;
+    font-size: 1rem;
+  }
+}
