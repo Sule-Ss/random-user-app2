@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/random-user-app2/static/css/main.c0e2e8d1.css",
+    "main.js": "/random-user-app2/static/js/main.8aef510f.js",
+    "static/media/map.svg": "/random-user-app2/static/media/map.8e5a2a587d26cff3ce6d9abc58da8f5f.svg",
+    "static/media/ageWoman.svg": "/random-user-app2/static/media/ageWoman.a158584281f99f0d709c59ea4dee167e.svg",
+    "static/media/ageMan.svg": "/random-user-app2/static/media/ageMan.5024153b1b81cd13bdb8e51fd323551f.svg",
+    "static/media/woman.svg": "/random-user-app2/static/media/woman.05242306d420ecf43e9f6e677b86df07.svg",
+    "static/media/man.svg": "/random-user-app2/static/media/man.4b684e29c23e54f17014ddb4c2e44bf6.svg",
+    "static/media/mail.svg": "/random-user-app2/static/media/mail.42e0750e7e30127034e5ab11cf316365.svg",
+    "static/media/padlock.svg": "/random-user-app2/static/media/padlock.8d2c33d2e558cdfc835d35b8ace79550.svg",
+    "static/media/phone.svg": "/random-user-app2/static/media/phone.d017e1ae418c694ba9148c0a9001609c.svg",
+    "index.html": "/random-user-app2/index.html",
+    "main.c0e2e8d1.css.map": "/random-user-app2/static/css/main.c0e2e8d1.css.map",
+    "main.8aef510f.js.map": "/random-user-app2/static/js/main.8aef510f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e2e8d1.css",
+    "static/js/main.8aef510f.js"
+  ]
+}
